@@ -1,0 +1,14 @@
+name: segson
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - librosa
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - pip:
+    - git+https://github.com/pnevyk/time-annotations-of-live-concerts-dataset
+    - dtw
